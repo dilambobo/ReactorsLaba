@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.laba3.MainPageController">
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laba3.MainPageController">
+   <children>
+      <Button fx:id="importBut" layoutX="90.0" layoutY="374.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="165.0" text="Import" />
+      <TreeView fx:id="treeReactors" layoutX="26.0" layoutY="23.0" prefHeight="326.0" prefWidth="293.0" />
+   </children>
+</AnchorPane>

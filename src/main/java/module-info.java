@@ -10,6 +10,8 @@ module com.example.laba3 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires javafx.graphics;
+    requires json.simple;
+    requires org.yaml.snakeyaml;
 
     opens com.example.laba3 to javafx.fxml;
     exports com.example.laba3;
